@@ -1,1 +1,82 @@
+Kurzbeschreibung
+Es soll ein mobiles Abwasch-Heißdampfmodul für mobile Küchen entwickelt werden. Die Idee resultiert aus dem Problem, welches viele mobile Küchen auf Festivals, zivilgesellschaftlichen Events aber auch in Krisengebieten haben, dass : möglichst auf Einweggeschirr verzichtet werden soll, eine Grundreinigung zwar stattfindet - jedoch eine hygienekonforme Reinigung meistens nicht möglich ist. Professionelle Dampfreiniger, wie sie in vielen Küchen vorhanden sind, benötigen einen Strom- und Wasseranschluss, der an den Einsatzorten zumeist nicht vorhanden ist. Eine Lösung des Problems wäre eine mobile und transportable Heißdampabwaschanlage, die autonom eingesetzt werden kann.
 
+Ziel ist es einen Prototyp zu entwickeln, der diese Vorgaben erfüllt und gleichzeitig aus recycleten Komponenten (gebrauchter Geschirrspüler, Gas- oder Elektrokocher) besteht sowie über mobile Energiewuellen versorgt wird. Die Herausforderung besteht dabei einen einfachen Aufbau mit größtmöglicher Sicherheit zu verbinden. Der Prototyp soll kompakt sein und in einer ersten Version mobile Küchen und deren Abwasch für bis zu 300 Personen versorgen können.
+
+gesellschaftliches Problem
+Wir wollen für zivilgeseelschaftlichen Initiativen und Hilsorganisationen eine einfache technische Lösung ein hygienisches Problem in der Essensversorgung zu lösen. In unserem Umfeld sind einige Initiativen aktiv, die dieses Problem seit langem im Blick haben, aber noch keine kostengünstige Lösung gefunden haben. Der Prototyp soll ein Open Hardware Projekt sein, welches im Umfeld dieser Inititiven mit unserer Hilfe genutzt und weiterentwickelt werden soll. Die Basis bilden recyclete Geräte (die auch vor Ort verfügbar sind) und (nicht nur fossile) Energiequellen, die garantieren sollen, daß diese technische Lösung überall auf der Welt nachgebaut werden kann.
+
+Zielgruppe
+Wir sind schon seit geraumer Zeit mit mobilen Küchenkollektiven dazu im Gespräch und auf großes Interesse gestossen. Der Prototyp soll auf einigen internationalen Treffen dieser Gruppen und auch auf Events getestet werden. Ein Mitglied eines solchen mobilen Küchenkollektiv wird auch Teil der Entwicklergruppe sein und aktiv an der Konzipierung und Umsetzug des Projekts teilhaben. Die Grundidee wurde schon einmal diesen Inititaiven präsentiert und ist auf übergroßes Interesse gestossen.
+
+konkreter Mehrwert als Open Hardware Projekt
+Der konkrete Mehrwert das Projekt als Open-Hardware zur Verfügung zu stellen, besteht darin, dass wir die Ideengeber sind, einen Prototyp erstellen und am Ende eine Community diese technische Lösung nutzt und kontinuerlich berbessert und vor allem verbessern kann. Open Hardware bedeutet auch offene Dokumentation und damit die Möglichkeit des Nachbauens und Modifizierens, welches wiederum offen dokumentiert wird. Damit ist erst eine kontinuierliche qualitative Verbesserung des Projekts möglich.
+
+Kompetenzen
+langjährige Erfahrungen mit eigenen Open Hardware Projekten
+Kompetenzen in der Metallbearbeitung, Holzbearbeitung, Digital Fabrication sowie Umgang mit Sensorik und Mikrocontrollern
+Zugang zu einem Makerspace mit angeschlossenen Bio-Lab
+konkrete Erfahrung in der mobilen Essensversorgung für mehrere hundert Personen in verschiedenen Regionen
+Kompetenzen in den Hygienstandards in Küchen sowie deren Testung
+Geräte
+Schweissgeräte + Edelstahlmaterial
+Gaskocher + Anschlüsse
+Solaranlage
+vorhandene biologische Testkapazitäten im Makerspace
+Spezialfilament für den 3d-Druck
+recyclete oder alte Geschirrspüler
+Dampferzeuger für Testung der Hygienstandards
+elektronische Bauelemente und Sensoren
+Welche Werkstatt
+Wir nutzen den Makerspace und die Biopunkkitchen des Wissenschaftsladens Potsdam. Wir können dort zeiten blocken, um an dem Projekt zu arbeiten.
+
+andere Lösungen
+Nach langer Recherche haben wir national wie international keine vergleichbaren Lösungen für unsere Rahmenbedingungen gefunden.
+
+Vorarbeiten
+In der Entwicklergruppe wurde eine Vorrecherche betrieben (nach ähnlichen Projekten) und eine grobe Vorauswahl wie der Prototyp ungefähr aussehen könnte.
+
+Meilensteine
+Bau eines mobilen Dampferzeugers + Testung der Temperatur und des Dampfdurchsatzes
+Integration des Dampferzeugers in den Geschirrspüler - Testung des gesamtem Prototyps auf allgemeine Funktionalität
+Designzyklus I mit dem Schwerpunkt der Sicherheit (Heissdampf und Grad der Sterilität des benutzten Geschirrs)
+Designzyklus II mit dem Schwerpunkt der Vereinfachung der gesamten Konstruktion
+Test auf einem öffentlichen Event.
+langfristiges Ziel
+Langfristiges Ziel ist die Transformation zu einem Communityprojekt verschiedenen Umsetzungen werden an verschiedenen Orten in verschiedenen Inititiativen realisiert und benutzt. Das Projekt soll dann insgesamt von der anvisierten Community getragen und weitergepflegt werden und in engen Austausch mit unserer Entwicklergruppe sein.
+
+Vorüberlegungen
+Gasbetriebener Gastrogeschirrspüler
+
+Normale GS funktionieren vor allem mit „Zeit“, Industrie-GS mit Druck, Temperatur und
+Chemie.
+• Die üblichen 70-90°C funktionieren für das viel verwendete Mehrweggeschirr aus Melamin und die
+Mehrwegbecher aus PP
+• Alle Industriegeschirrspüler haben Chemie am Start. Wir müssen recherchieren, ob es da auch was
+Abbaubares gibt
+
+Energie
+• Es wird wahrscheinlich Gas + Batterien werden
+• Vor allem gasbetriebene Druckpumpen, die auch regelbar sind, gibts nicht.
+• Außerdem braucht die Gastherme, die wir wahrscheinlich nehmen würden, Strom für bisschen
+Regelung und Zündung und sowas. Es gibt Thermen, die haben nur 2 R6 Batterien als Versorgung. Damit
+entfällt der Spannungswandler 12VBat → 220V Steckdosenstrom.
+• Das meiste sollte tatsächlich Heizen sein, und das macht ja das Gas für uns, da haben wir Leistung.
+• Batterien sollten so für 50 Spülgänge machbar groß sein. Ziel: Volumen und Gewicht vergleichbar mit
+vollem Bierkasten.
+
+Grobe Idee und Teile:
+• Alten, defekten Industriespüler für Gehäuse, Spritzdüsen, Filter etc kaufen. 200€
+• Wir brauchen einen Ausgleichstank, wo potenziell 99°C Wasser drin ist
+• Gastherme kaufen - die können manchmal nur bis 75, aber das lässt sich mit einem Widerstand am
+Temperatursensor tunen.
+• Pumpe(n): Hochdruckpumpe für heißes Wasser - hier muss man experimentieren. Evtl. mehrere kleine
+nötig. Die können bis 100°C , sind regelbar und laufen auch mit 12 oder 24V, perfekt für die Batterie.
+
+Batterie:
+• Es gibt sehr viele Bauanleitungen für LiFePo4 (nicht-entflammbar) in nem Bierkasten.
+Wäre ein Kostenpunkt, aber ich glaub die hat genug Power für die Anzahl der Spülgänge.
+• Es ist unklar, ob wir bis 220V hoch Wechselrichten müssen, wäre jetzt nur für die Gastherme nötig.
+Vielleicht kommt man drumrum, die Gastherme zieht an sich fast kein Strom. Da sind die Wechselrichter
+miniklein und reichen, nicht das Problem.
+• Vielleicht will man noch ein Solarpanel oder eine Handylade-Steckdose mit dran haben?
